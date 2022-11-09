@@ -1,0 +1,90 @@
+*{
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+}
+.top-pattern{
+    flex: 1;
+    position: absolute;
+    bottom: 290px;
+    right: 50%;
+    width: auto;
+    
+}
+.bottom-pattern{
+    flex: 1;
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    width: auto;
+}
+.container{
+    position: relative;
+    z-index: 6;
+    max-width: 500px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    position: relative;
+    z-index: 9;
+    width: 35%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -4rem;
+   
+}
+
+
+.details h3 span{
+    margin-left: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 600;
+    font-size: 19px;
+    
+}
+.details p{
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+.details hr{
+    margin-top: 2rem;
+    width: 300%;
+    margin-left: -107px;
+    color: hsl(227, 10%, 46%);
+   
+}
+.follow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    
+}
+.follow h2{
+    text-align: center;
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+.follow p{
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    letter-spacing: 2px;
+   
+}
